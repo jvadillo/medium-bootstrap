@@ -1,0 +1,18 @@
+.navbar {
+  background-color: #fff;
+}
+
+.write-link {
+  color: #1c9963;
+}
+
+.navbar-icon {
+  color: rgba(0,0,0,.44);
+}
+
+.btn-circle {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-image: url(https://pbs.twimg.com/profile_images/679974972278849537/bzzb-6H4_normal.jpg);
+}
