@@ -2,6 +2,9 @@
 
 [Medium](https://medium.com) HTML & CSS clone, built using Bootsrap v4  front-end component library.
 
+## Live DEMO
+You can find the working example here: jvadillo.github.io/medium-bootstrap(jvadillo.github.io/medium-bootstrap)
+
 ## Installation
 All the external dependencies has been included using CDN. You only need to upload the HTML and CSS files to your host.
 
