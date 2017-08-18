@@ -1,6 +1,7 @@
 /* NAVBAR */
 .navbar {
   background-color: #fff;
+  margin: 10px 0 0;
   padding-left: 0;
   padding-right: 0;
 }
@@ -57,7 +58,7 @@
   line-height: 1.4;
 }
 
-.padding-left-10 {
+.padding-right-10 {
   padding-right:10px!important;
 }
 
@@ -82,7 +83,15 @@
       height: 100px;
 }
 
+.img-2 {
+  background-image: url("https://cdn-images-1.medium.com/max/400/1*vVU_pFSzCLQG2N97oyEnyg.jpeg") !important;
+}
+
+.img-3{
+  background-image: url("https://cdn-images-1.medium.com/max/400/1*407SlzNJ_XBHm2a8x61Nkg.jpeg")!important;
+}
 .card-subheading {
+  color: rgba(0,0,0,.44);
   font-size: 12px!important;
   padding-top: 15px;
   padding-bottom: 5px;
@@ -91,11 +100,20 @@
 .heading {
   font-size: 20px;
   font-weight: 700;
+  line-height: 1.2 !important;
+  max-height: 2.4em !important;
+  min-height: 70px;
 }
 
 .article-info {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   flex-basis: auto;
+}
+
+.article-info-left {
+  display: flex;
 }
 
 .profile-avatar {
@@ -119,5 +137,22 @@
 .date, .read-time {
   color: rgba(0,0,0,.44)!important;
   font-size: 12px;
+}
+
+.bookmark-link {
+  color: rgba(0,0,0,.44);
+  display: inline-block;
+  font-size: 19px;
+  height: 24px;
+  vertical-align: sub;
+}
+
+.more-options-link {
+  color: rgba(0,0,0,.44);
+  display: inline-block;
+  font-size: 19px;
+  height: 24px;
+  margin-left: 6px;
+  vertical-align: middle;
 }
 /* END: CONTENT */
